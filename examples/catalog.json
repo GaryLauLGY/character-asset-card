@@ -1,18 +1,18 @@
 {
   "schema_version": 1,
-  "release": "examples-2026-10-14",
   "sets": [
     {
       "id": "whale-girl-maid",
-      "name": "大肥鱼少女版_女仆装_v001",
+      "name": "大肥鱼少女版_女仆装_侧面修复_v003",
       "page": "whale-girl-maid/README.md",
-      "file_count": 7,
-      "archive_url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/whale-girl-maid.zip",
-      "archive_bytes": 23862697,
-      "archive_sha256": "c4ff906c877ed13fd84bb62d8b79f8d26433e517d934dd4208afb71064c0c824",
-      "preview_url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/whale-girl-maid-preview.png",
-      "preview_sha256": "9d62452a728585c6e6f873aa8f35e9ae5aa756537074396390c728792d616227",
-      "notes": "目录包含 v001、v002 整卡及两版脸部，预览采用 v002；按现存文件完整保留。"
+      "file_count": 5,
+      "archive_url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14-whale-girl-v003/whale-girl-maid-v003.zip",
+      "archive_bytes": 14111621,
+      "archive_sha256": "b1e215839809ed077dc51dbf1389a07719d4386df7b5f11e77b4f11d723156ca",
+      "preview_url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14-whale-girl-v003/whale-girl-maid-v003-preview.png",
+      "preview_sha256": "769613338ef4100ff4e35f5690acac94e83d4f7cbe7ad053862eda3917861fbf",
+      "notes": "v003仅修正侧面图中与背面不一致的结构关系；脸部、正面、背面原文件不变。原v001/v002在首批Release保留。",
+      "release": "examples-2026-10-14-whale-girl-v003"
     },
     {
       "id": "whale-chibi-maid",
@@ -182,5 +182,6 @@
       "preview_sha256": "6d0caea5105fda4a249863f327984f52448750309c2670fd7801ecbd2741d456",
       "notes": "真人形象创作示例，深蓝开领西装造型。"
     }
-  ]
+  ],
+  "base_release": "examples-2026-10-14"
 }

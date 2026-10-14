@@ -1,25 +1,25 @@
-# 大肥鱼少女版_女仆装_v001
+# 大肥鱼少女版 · 女仆装四视图 v003
 
-[下载完整素材包](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/whale-girl-maid.zip) · [查看原尺寸预览](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/whale-girl-maid-preview.png) · [文件清单与 SHA-256](manifest.json) · [返回目录](../README.md)
+[下载修复版完整素材包](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14-whale-girl-v003/whale-girl-maid-v003.zip) · [查看原尺寸整卡](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14-whale-girl-v003/whale-girl-maid-v003-preview.png) · [文件清单与校验](manifest.json) · [返回目录](../README.md)
 
-![大肥鱼少女版_女仆装_v001](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/whale-girl-maid-preview.png)
+![大肥鱼少女版v003](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14-whale-girl-v003/whale-girl-maid-v003-preview.png)
 
-## 内容与来源
+## 本版修复
 
-目录包含 v001、v002 整卡及两版脸部，预览采用 v002；按现存文件完整保留。
-
-这些文件来自作者已有的人物资产卡制作成果，由作者选择公开；本次未重新生成、缩放或重新编码图片。预览为现有完整卡；梁圣预览为其原始三视图，完整卡使用包内 HTML 打开。
+侧面图原先与背面表达的结构关系不一致；v003按用户指出的问题修复侧面。脸部特写、正面与背面保持原文件不变。已对四张图做AI视觉对比与修后复检，用户指出的问题已解决；完整卡4/4原像素校验通过。AI复检与用户最终验收分开，不宣称精确几何一致。
 
 ## 文件
 
-| 文件 | 尺寸 | 大小 |
-|---|---:|---:|
-| `01_脸部特写.png` | 1024 × 1536 | 1.96 MiB |
-| `01_脸部特写_v002.png` | 1254 × 1254 | 1.86 MiB |
-| `03_侧面.png` | 1024 × 1536 | 1.66 MiB |
-| `04_背面.png` | 1024 × 1536 | 1.69 MiB |
-| `大肥鱼少女版_正面全身资产_v001.png` | 1024 × 1536 | 1.75 MiB |
-| `大肥鱼少女版_简单四视图资产卡_原像素_v001.png` | 2208 × 3552 | 7.35 MiB |
-| `大肥鱼少女版_简单四视图资产卡_原像素_v002.png` | 2438 × 3552 | 7.29 MiB |
+| 文件 | 尺寸 |
+|---|---:|
+| `01_脸部特写.png` | 1254 × 1254 |
+| `02_正面.png` | 1024 × 1536 |
+| `03_侧面.png` | 1024 × 1536 |
+| `04_背面.png` | 1024 × 1536 |
+| `大肥鱼少女版_四视图_原像素_v003.png` | 2438 × 3552 |
 
-包内 `manifest.json` 记录每个文件的 SHA-256。图片完整解码与打包一致性已检查；不把这次检查当作人物相似度、几何一致性或历史整卡原像素验收。使用前请阅读[素材使用说明](../USAGE.md)。
+## 历史与使用
+
+[v001/v002原始包](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/whale-girl-maid.zip)仍保留作追溯，包含已发现侧面问题的旧图，当前优先使用v003。
+
+[素材使用说明](../USAGE.md)；原尺寸文件保持不重采样，ZIP内含SHA-256清单。

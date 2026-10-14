@@ -6,7 +6,7 @@
 
 ## 示例与现成资产
 
-**[浏览 15 套人物资产卡](examples/README.md)** · [下载素材包](https://github.com/GaryLauLGY/character-asset-card/releases/tag/examples-2026-10-14) · [素材使用说明](examples/USAGE.md)
+**[浏览 15 套人物资产卡](examples/README.md)** · [素材发布与版本](https://github.com/GaryLauLGY/character-asset-card/releases) · [素材使用说明](examples/USAGE.md)
 
 涵盖真人形象、影视角色、动画与 Q 版造型。每套有预览、文件清单和 SHA-256；现有完整卡与各视角图片按套下载，避免重复生成。历史版本及缺失原图会明确说明。
 
@@ -14,8 +14,8 @@
 
 | 肌肉难梁 · 蓝西装全身四视图 | 大肥鱼少女版 · 女仆装四视图 |
 |:---:|:---:|
-| [<img src="https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/muscle-liang-blue-preview.png" alt="肌肉难梁蓝西装全身四视图资产卡" width="420">](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/muscle-liang-blue-preview.png) | [<img src="https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/whale-girl-maid-preview.png" alt="大肥鱼少女版女仆装四视图资产卡" width="420">](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/whale-girl-maid-preview.png) |
-| [查看示例说明](examples/muscle-liang-blue/README.md) · [下载完整素材包](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/muscle-liang-blue.zip) | [查看示例说明](examples/whale-girl-maid/README.md) · [下载完整素材包](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/whale-girl-maid.zip) |
+| [<img src="https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/muscle-liang-blue-preview.png" alt="肌肉难梁蓝西装全身四视图资产卡" width="420">](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/muscle-liang-blue-preview.png) | [<img src="https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14-whale-girl-v003/whale-girl-maid-v003-preview.png" alt="大肥鱼少女版女仆装四视图资产卡" width="420">](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14-whale-girl-v003/whale-girl-maid-v003-preview.png) |
+| [查看示例说明](examples/muscle-liang-blue/README.md) · [下载完整素材包](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/muscle-liang-blue.zip) | [查看示例说明](examples/whale-girl-maid/README.md) · [下载完整素材包](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14-whale-girl-v003/whale-girl-maid-v003.zip) |
 
 点击图片查看原尺寸完整卡；下载包包含完整卡与已有独立视角图片。
 
@@ -29,7 +29,7 @@
 
 正、侧、背默认完整保留头顶至鞋底，并留出边缘余量；只有明确要求半身或膝上时才改变景别。参考没拍到下半身或鞋履时做克制补全并标注，不自动截成半身。
 
-两种方式都先检查身份、服装、物品与左右关系，再拼合。参考中没有的背面或鞋履细节明确标为设计补全。
+两种方式在生成后都执行 [AI 整套一致性复检](skills/character-asset-card/references/consistency-review.md)：AI 实际对照参考和全部生成图，自行识别应保持的设计与关系；发现明确矛盾则定向修复，再对整套图复检，通过后拼合。参考中没有的背面或鞋履细节明确标为设计补全。
 
 ## 安装
 
