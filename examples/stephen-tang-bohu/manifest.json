@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "stephen-tang-bohu",
+  "name": "周星驰_唐伯虎_四视图_v001",
+  "release": "examples-2026-10-14",
+  "preview_source": "周星驰_唐伯虎_四视图资产卡_原像素.png",
+  "notes": "影视角色造型示例：唐伯虎。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写_原图.png",
+      "bytes": 2511095,
+      "sha256": "a58ae0e91a3bcb15f9c03ecc8760ebbe0291ca4cce615aa07e69e752f5a843fc",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "02_正面全身_原图.png",
+      "bytes": 2055065,
+      "sha256": "78c74e48636e28f9022aae4ee7564aae17908e49fbf419c3943f1827d2bf662f",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "03_侧面全身_原图.png",
+      "bytes": 1842249,
+      "sha256": "8cb0a43366b1590b6e97ba242a50d5a43a3ffef4e4ec167bf537622e57df479b",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面全身_原图.png",
+      "bytes": 2031957,
+      "sha256": "3be54259462d7be36a3d2f9625870c2a2c1e43b2e1e93f46082a1f8b31c2dd68",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "周星驰_唐伯虎_四视图资产卡_原像素.png",
+      "bytes": 7968793,
+      "sha256": "43c93c14bd5a4938b3ccc9ee7fdb98c733807fdabdc6c306b30a48461fcb1d87",
+      "media_type": "png",
+      "width": 2192,
+      "height": 3504
+    }
+  ]
+}

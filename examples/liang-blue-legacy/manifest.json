@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "liang-blue-legacy",
+  "name": "梁圣",
+  "release": "examples-2026-10-14",
+  "preview_source": "蓝西装人物_三视图_v005.png",
+  "notes": "历史制作示例：正侧背由同一三视图分区排版，不能称为三张独立生成原图。原目录没有完整四视图 PNG，提供原有 HTML 卡、三视图、视角导出图和脸部图。HTML 的重复内嵌图片改为相对链接，图片字节不变。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "原图_脸部特写_v001.png",
+      "bytes": 1899793,
+      "sha256": "2c625e8ac324bf65dc8cf879e1252d397f18a7b047905d1e343a84bee6fd73d3",
+      "media_type": "png",
+      "width": 1122,
+      "height": 1402
+    },
+    {
+      "name": "蓝西装人物_01_正面.png",
+      "bytes": 753182,
+      "sha256": "e628865df5e346a99cb02f78fe770d8efdd7000369b75a13e7bb221439888842",
+      "media_type": "png",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "name": "蓝西装人物_02_侧面.png",
+      "bytes": 708769,
+      "sha256": "bf84ba6fe7aa68053448f83b5106f69d9d992231c27e1007a757c179a0674fa2",
+      "media_type": "png",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "name": "蓝西装人物_03_背面.png",
+      "bytes": 746301,
+      "sha256": "f269a8946a1dd48c240283073d12bf92a7b7c4c29276957bbd67052efad97cf5",
+      "media_type": "png",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "name": "蓝西装人物_04_脸部特写.png",
+      "bytes": 1469247,
+      "sha256": "a3c0cf8208237441c1270855c4d718efa1fb121e4ad6ab04b4defe20e5f69da3",
+      "media_type": "png",
+      "width": 1200,
+      "height": 1500
+    },
+    {
+      "name": "蓝西装人物_三视图_v005.png",
+      "bytes": 1786546,
+      "sha256": "94b0dc74796074ef5672c727fe805d911a9692ac0d96457de501da4650101fc4",
+      "media_type": "png",
+      "width": 1536,
+      "height": 1024
+    },
+    {
+      "name": "蓝西装人物_人物资产卡.html",
+      "bytes": 4921,
+      "sha256": "c93f6aae12dfbd4373974bff62e39890f3e06807660a3ce4c5483941d247270f",
+      "media_type": "html",
+      "transformation": "内嵌图片替换为同包相对链接；不改变布局与图像",
+      "original_sha256": "c664bba2b0dcd1b708c626e59df3721cff9a43b4802e9cfd657bbda6900e6c69"
+    }
+  ]
+}

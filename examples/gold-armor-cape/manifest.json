@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "gold-armor-cape",
+  "name": "金肩甲披风男子_简单高清_v001",
+  "release": "examples-2026-10-14",
+  "preview_source": "金肩甲披风男子_简单四视图资产卡_v001.png",
+  "notes": "脸部特写与正、侧、背视图；保留既有造型和构图。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写.png",
+      "bytes": 2831756,
+      "sha256": "87aa9ea92b9c9a9b6fef8d0da1f8c0d574624772c6391d275bddbdb949175ff8",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "02_正面.png",
+      "bytes": 2157647,
+      "sha256": "76957eaf60abe7ddb0cdc34fe8400de32bc4481156ee4e8b490b917fd277199b",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "03_侧面.png",
+      "bytes": 1958928,
+      "sha256": "1100a4f1dcc370d84930928418207458a93ddf67aaf9001193c2fefe8204f6bb",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面.png",
+      "bytes": 2086052,
+      "sha256": "768d00603e65268de970ec84a92342b1ee2455863e688998987aeb25e33ec23f",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "金肩甲披风男子_简单四视图资产卡_v001.png",
+      "bytes": 8429473,
+      "sha256": "ec357d0b76d60919ea5222185eb154c68ea7d946231804d14ffb63c163d9b81e",
+      "media_type": "png",
+      "width": 2200,
+      "height": 3520
+    }
+  ]
+}

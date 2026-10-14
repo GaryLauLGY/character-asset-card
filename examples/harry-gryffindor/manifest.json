@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "harry-gryffindor",
+  "name": "哈利波特_格兰芬多制服_简单四视图_v002",
+  "release": "examples-2026-10-14",
+  "preview_source": "哈利波特_格兰芬多制服_简单四视图_原像素_v002.png",
+  "notes": "正面采用用户提供的 Grok JPG，保持原格式；其余链接已解析为真实图片。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写.png",
+      "bytes": 2222929,
+      "sha256": "ac12fc255f55f6a28ab8364b15c85b40fd1a261aac6af29d360f3f1e26d53296",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "02_正面全身_用户提供_Grok.jpg",
+      "bytes": 290953,
+      "sha256": "0c850bb392c7f1de43f7de801dfbd64f00e6a869244af44be15dc471fabd51e6",
+      "media_type": "jpg",
+      "width": 1152,
+      "height": 1728
+    },
+    {
+      "name": "03_左侧全身.png",
+      "bytes": 1814348,
+      "sha256": "681be977e4c8933aff38a50de7de24be5c2e39ea85705e3026acfcb3609fb93a",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面全身.png",
+      "bytes": 1700158,
+      "sha256": "0623b1ee34b6e5d8acb718eb5e3623a80ca69fd715c6383f66d16db4f579c41d",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "哈利波特_格兰芬多制服_简单四视图_原像素_v002.png",
+      "bytes": 6418021,
+      "sha256": "eaf5615d0b9325fb5153e4cf5d9063d0173883bc85d8b673764d6632c8b05438",
+      "media_type": "png",
+      "width": 2304,
+      "height": 3716
+    }
+  ]
+}

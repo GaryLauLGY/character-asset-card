@@ -2,7 +2,13 @@
 
 把一张或多张人物参考图，组织成可复用的人物资产卡：先独立生成各视角或细节图，再用HTML/CSS与确定性绘图方式排版，最终以原生像素拼合完整PNG。
 
-这是 Gary 从日常AIGC制作中整理的工作流 Skill，支持简单版与复杂版。它提供制作步骤、参考分工、提示词模板和像素校验脚本；不捆绑图像模型、API服务、个人照片或私有项目。
+这是 Gary 从日常AIGC制作中整理的工作流 Skill，支持简单版与复杂版。它提供制作步骤、参考分工、提示词模板和像素校验脚本；不捆绑图像模型、API服务或私有制作项目。另提供 15 套作者选定的已有资产卡示例与下载包。
+
+## 示例与现成资产
+
+**[浏览 15 套人物资产卡](examples/README.md)** · [下载素材包](https://github.com/GaryLauLGY/character-asset-card/releases/tag/examples-2026-10-14) · [素材使用说明](examples/USAGE.md)
+
+涵盖真人形象、影视角色、动画与 Q 版造型。每套有预览、文件清单和 SHA-256；现有完整卡与各视角图片按套下载，避免重复生成。历史版本及缺失原图会明确说明。
 
 ## 两种制作方式
 
@@ -51,6 +57,18 @@ python3 skills/character-asset-card/scripts/verify_native_pixels.py   完整资�
 
 映射格式与制作示例见 [通用示例](skills/character-asset-card/references/project-examples.md)。必须为全部采用图填写准确位置与实际尺寸，报告文件使用新路径。校验通过表示拼合保留像素，人物相似度、表情与设计一致性仍需实际看图判断。
 
+## 仓库结构
+
+```text
+skills/character-asset-card/  # 可安装 Skill：流程、模板、像素校验工具
+examples/README.md          # 人物资产目录
+examples/catalog.json       # 机器可读下载索引
+examples/<角色ID>/          # 每套说明与文件清单
+GitHub Releases            # 原始图片 ZIP、原尺寸预览、SHA256SUMS.txt
+```
+
+图片和下载包保存在 Releases，不进入 Git 历史；安装 Skill 只需要复制 `skills/character-asset-card`。历史示例展示当时的产物，不覆盖当前 Skill 的默认全身规则。新增资产使用新 Release 保留旧版本。
+
 ## 文件
 
 - [SKILL.md](skills/character-asset-card/SKILL.md)：完整制作流程。
@@ -58,4 +76,4 @@ python3 skills/character-asset-card/scripts/verify_native_pixels.py   完整资�
 - [制作与拼合示例](skills/character-asset-card/references/project-examples.md)：两种制作级别、HTML拼合及校验映射。
 - [像素校验脚本](skills/character-asset-card/scripts/verify_native_pixels.py)：读取成品与原图，不修改图片。
 
-代码与文档采用 [MIT License](LICENSE)。你可以按自己的工具和项目习惯适配。生成图片的使用范围取决于所用工具及输入素材，本仓库未附带任何人物图片。
+代码与文档采用 [MIT License](LICENSE)。你可以按自己的工具和项目习惯适配。示例图片单独遵循[素材使用说明](examples/USAGE.md)，不将代码的 MIT 许可自动扩展为第三方角色或肖像授权。

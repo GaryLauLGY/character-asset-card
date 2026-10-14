@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "muscle-liang-blue",
+  "name": "肌肉难梁_蓝西装_全身四视图_v002",
+  "release": "examples-2026-10-14",
+  "preview_source": "肌肉难梁_全身四视图_原像素_v002.png",
+  "notes": "脸部特写加三张全身图；裤装、鞋履与背面为设计补全。背面头部略偏左，视图间存在细节差异。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写.png",
+      "bytes": 2244223,
+      "sha256": "a774a53855d9f571793ae7493fd4ada098ab083a10eb1d52a6472463698d0d10",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "02_正面全身.png",
+      "bytes": 1896592,
+      "sha256": "ab87c41c93d0d01e27f2a3700a6596619ab9565357a2fff44be558bd5c3576cd",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "03_左侧全身.png",
+      "bytes": 1758468,
+      "sha256": "ffc11c89d04d00add6691fc9ecc0736482b93b8ef6d5a978a04cfab6543fccd2",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面全身.png",
+      "bytes": 1872175,
+      "sha256": "1a7ef96583e9517c5517876768155d81f6012b56f2b54d97e09e59be7560a23a",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "肌肉难梁_全身四视图_原像素_v002.png",
+      "bytes": 7301325,
+      "sha256": "652b002b6ff5004d5e5cf3e3d9e37c815269c63a48c89ec879ab32b7ce2ce326",
+      "media_type": "png",
+      "width": 2224,
+      "height": 3676
+    }
+  ]
+}

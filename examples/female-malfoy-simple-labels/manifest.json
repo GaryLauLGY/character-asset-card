@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "female-malfoy-simple-labels",
+  "name": "女版马尔福_蛇院制服_简单四视图_简字版_v003",
+  "release": "examples-2026-10-14",
+  "preview_source": "女版马尔福_蛇院制服_简单四视图_仅视角标识_原像素_v003.png",
+  "notes": "简字版完整卡；链接已解析为真实图片。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写.png",
+      "bytes": 2239946,
+      "sha256": "08a57863c1704da8a27fba59c02f6c7eb4edc58a95f8a01c796f535a862f0ef4",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "02_正面.png",
+      "bytes": 1862934,
+      "sha256": "4cffd87ab1764b05321f7ad7b4d461df5d5ba96c4c9f2544eeb17e98dd7976d3",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "03_侧面.png",
+      "bytes": 1734068,
+      "sha256": "bb1ee2c758aa94d6a605039e6acc864fba0e68494b49116053c34446d4e6a370",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面.png",
+      "bytes": 1787182,
+      "sha256": "e59bf9b030a5bb9538ad8d82810dff9a2901f723fa96861d53191a46da14af80",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "女版马尔福_蛇院制服_简单四视图_仅视角标识_原像素_v003.png",
+      "bytes": 6859886,
+      "sha256": "c31d0eba07a50e499717c9e3d0c4832ed9027a5d49a978b3114cfac4d5efe155",
+      "media_type": "png",
+      "width": 2176,
+      "height": 3524
+    }
+  ]
+}

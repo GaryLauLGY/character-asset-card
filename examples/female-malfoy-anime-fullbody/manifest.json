@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "female-malfoy-anime-fullbody",
+  "name": "女版马尔福_蛇院制服_动画全身四视图_v002",
+  "release": "examples-2026-10-14",
+  "preview_source": "女版马尔福_动画全身四视图_原像素_v002.png",
+  "notes": "动画风格，脸部特写加全身正侧背；脸部链接已解析为真实图片。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写.png",
+      "bytes": 1952366,
+      "sha256": "ed6b39d035842982f5287be2f125d142ff70ff751efba46014bbf591edf9b9bc",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "02_正面全身.png",
+      "bytes": 1258386,
+      "sha256": "e9d04a4ca92017d992ec2384b645b518c8f751f41b758ac4a969b1aa38220134",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "03_左侧全身.png",
+      "bytes": 1204113,
+      "sha256": "67a943305bf454a510471358f646384dfe9375cbeab80eb51083ff6de3196abd",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面全身.png",
+      "bytes": 1175683,
+      "sha256": "4c3fafef04d7bb4780855af16a43efefa205b862a29d5929bab74a64a88705be",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "女版马尔福_动画全身四视图_原像素_v002.png",
+      "bytes": 4934569,
+      "sha256": "44db3afdff2d5c9ecb76ba2a5251309f8f9cef9398c596c8806d4e83e4faa8c1",
+      "media_type": "png",
+      "width": 2176,
+      "height": 3524
+    }
+  ]
+}

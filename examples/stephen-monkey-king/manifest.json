@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "stephen-monkey-king",
+  "name": "周星驰_孙悟空_四视图_v001",
+  "release": "examples-2026-10-14",
+  "preview_source": "周星驰_孙悟空_四视图资产卡_原像素.png",
+  "notes": "影视角色造型示例：孙悟空。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写_原图.png",
+      "bytes": 2771972,
+      "sha256": "d44fcc0f4c6ff117dfdff1f53e40b409128c50987b2c08d07ea4834cdea977c9",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "02_正面全身_原图.png",
+      "bytes": 2149138,
+      "sha256": "40d174bd49181f21eae44485744076f8765f514f21fb85210d1f38bceadfdb11",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "03_侧面全身_原图.png",
+      "bytes": 1945116,
+      "sha256": "1345fa42520b730f41cd56e363c4caafbfec151eb5915851271cb2ca50b38e31",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面全身_原图.png",
+      "bytes": 2137293,
+      "sha256": "ecc8f877fed90233b2cbea093799f718b94c737df3fc1226b0f4822b4bfa7f4c",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "周星驰_孙悟空_四视图资产卡_原像素.png",
+      "bytes": 8592364,
+      "sha256": "8ac4db91e9814efe2636f9fe8e9ae4feb2cf62af81e671800cee6d461f1b35a1",
+      "media_type": "png",
+      "width": 2192,
+      "height": 3504
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "dario-open-collar",
+  "name": "Dario_深蓝开领西装_简单高清_v001",
+  "release": "examples-2026-10-14",
+  "preview_source": "Dario_简单四视图资产卡_v001.png",
+  "notes": "真人形象创作示例，深蓝开领西装造型。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写.png",
+      "bytes": 2425698,
+      "sha256": "84d6ba20756581f70388a7b95f2418b9448013723855aa771f626d20d1539fd6",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "02_正面.png",
+      "bytes": 1795843,
+      "sha256": "81bbb0e780f63140e4c9a2d20f798120e29eb37dc38bf69eb9088829858032d9",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "03_侧面.png",
+      "bytes": 1734988,
+      "sha256": "07ce0789ed1329d3fbaf9c3e0886625d50e60af82cbaef8abae90338047ba6d0",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面.png",
+      "bytes": 1786362,
+      "sha256": "e3bd0b89e9b6fac4293cc439e34040aab199239de27a301ea89a335a5fd431cd",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "Dario_简单四视图资产卡_v001.png",
+      "bytes": 7084654,
+      "sha256": "6d0caea5105fda4a249863f327984f52448750309c2670fd7801ecbd2741d456",
+      "media_type": "png",
+      "width": 2200,
+      "height": 3520
+    }
+  ]
+}

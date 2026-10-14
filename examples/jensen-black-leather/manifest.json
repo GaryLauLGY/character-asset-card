@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "jensen-black-leather",
+  "name": "老黄_黑皮衣_简单高清_v001",
+  "release": "examples-2026-10-14",
+  "preview_source": "老黄_简单四视图资产卡_v001.png",
+  "notes": "真人形象创作示例，黑皮衣造型。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写.png",
+      "bytes": 2749277,
+      "sha256": "932ea6d0b651c8a49f0a631a054b480da888120d3111b24b85f8b4ee601b3dd2",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "02_正面.png",
+      "bytes": 1835314,
+      "sha256": "3363e51b5076397805d530774bbbaeb1fc07aa2230e9d763e1703be69af3eb76",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "03_侧面.png",
+      "bytes": 1798345,
+      "sha256": "1e5768b93d09551cecf3bc90561077c0905a04383280fdb295c5fd599464a0b1",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面.png",
+      "bytes": 1840296,
+      "sha256": "d3194d5d28fd17e3bb25bdbbc7c0b36cd53bef023d1bd26ddaa2dfe4b2657589",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "老黄_简单四视图资产卡_v001.png",
+      "bytes": 7533521,
+      "sha256": "3fdc504bc368347642822ca31a80d82f4af626f9d714abacf4498dff8b12d752",
+      "media_type": "png",
+      "width": 2200,
+      "height": 3520
+    }
+  ]
+}

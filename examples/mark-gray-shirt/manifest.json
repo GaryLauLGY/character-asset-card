@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "mark-gray-shirt",
+  "name": "扎克伯格_灰T恤_简单四视图_v001",
+  "release": "examples-2026-10-14",
+  "preview_source": "扎克伯格_简单四视图资产卡_v001.png",
+  "notes": "真人形象创作示例，灰 T 恤造型。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写.png",
+      "bytes": 2648045,
+      "sha256": "a8d8d1e84cee59bd5847dd0698c8c91f02b03ed6dd992d3392f509fe64f05779",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "02_正面.png",
+      "bytes": 1914629,
+      "sha256": "9b89f83c5d7c71a0c22d788c651c33b92a4db315d79aafd21d42293ebb285cb8",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "03_侧面.png",
+      "bytes": 1813178,
+      "sha256": "42c664742aa2878577f88b3a2c94e38ff0d95c136c5b6530e8b91b9075bd9d64",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面.png",
+      "bytes": 1886520,
+      "sha256": "c4e27d71cd3d881c613e3114fe1678e00c4b12c2e5bf5350a238c4fbe7863028",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "扎克伯格_简单四视图资产卡_v001.png",
+      "bytes": 7605918,
+      "sha256": "a61bd4a9b4d78d61af286f52778a395f818be30926fbdeefdaadbe7d6b6557a4",
+      "media_type": "png",
+      "width": 2144,
+      "height": 3312
+    }
+  ]
+}

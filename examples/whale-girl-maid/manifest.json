@@ -1,0 +1,72 @@
+{
+  "schema_version": 1,
+  "id": "whale-girl-maid",
+  "name": "大肥鱼少女版_女仆装_v001",
+  "release": "examples-2026-10-14",
+  "preview_source": "大肥鱼少女版_简单四视图资产卡_原像素_v002.png",
+  "notes": "目录包含 v001、v002 整卡及两版脸部，预览采用 v002；按现存文件完整保留。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写.png",
+      "bytes": 2060438,
+      "sha256": "b3c686232226d31f706c301ecb5f9f2109208b2ed976be19009e7106e8d1ea94",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "01_脸部特写_v002.png",
+      "bytes": 1951630,
+      "sha256": "f4d6c9c209d1e92b47bef30339ec6da119ed6efc4316f8df9718cbc51f37dacc",
+      "media_type": "png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "03_侧面.png",
+      "bytes": 1740793,
+      "sha256": "0597b7b73cf9f27818cc05cbe6f6979fecd1ce19821109f394c491db0f2cb12e",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面.png",
+      "bytes": 1767297,
+      "sha256": "b6287de4bcce260fb57dca881aea1b20500ae10a36c5dac04de4144a344d451d",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "大肥鱼少女版_正面全身资产_v001.png",
+      "bytes": 1832634,
+      "sha256": "0e92b3104eb09c44f72931bbe8e5cb47df23286aaef5b416d9e139839c3053e5",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "大肥鱼少女版_简单四视图资产卡_原像素_v001.png",
+      "bytes": 7711135,
+      "sha256": "6ae6ce05ef54ee073152e4904b5b6f5c8eeea435c878f606c241bf947d798b78",
+      "media_type": "png",
+      "width": 2208,
+      "height": 3552
+    },
+    {
+      "name": "大肥鱼少女版_简单四视图资产卡_原像素_v002.png",
+      "bytes": 7649068,
+      "sha256": "9d62452a728585c6e6f873aa8f35e9ae5aa756537074396390c728792d616227",
+      "media_type": "png",
+      "width": 2438,
+      "height": 3552
+    }
+  ]
+}

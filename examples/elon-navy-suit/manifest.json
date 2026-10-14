@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "elon-navy-suit",
+  "name": "老马_深蓝西装领带_简单高清_v001",
+  "release": "examples-2026-10-14",
+  "preview_source": "老马_简单四视图资产卡_v001.png",
+  "notes": "真人形象创作示例，深蓝西装领带造型。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写.png",
+      "bytes": 2283965,
+      "sha256": "50a9510bdf7fe4cc269d091b40fbfe4f99995511cb65eb17da896fff51913c82",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "02_正面.png",
+      "bytes": 1917536,
+      "sha256": "a609ead125f7c74abded3e1d530e4a27286eac4bfbf5144bb8470ce130ac608f",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "03_侧面.png",
+      "bytes": 1741048,
+      "sha256": "e64a04f3ecac474e46080bf265e4c54916891d6cd95fa39afcd4a6709ab7a658",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面.png",
+      "bytes": 1784307,
+      "sha256": "0a105f680bf4bb26084ad156d444a73d1e4e5eec079a1406740da0016f51fcdd",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "老马_简单四视图资产卡_v001.png",
+      "bytes": 7096339,
+      "sha256": "cf811a0ca878d6fa17fff5a84af83ba11e93e8bb604e5a782fa37eeaaa261138",
+      "media_type": "png",
+      "width": 2200,
+      "height": 3520
+    }
+  ]
+}

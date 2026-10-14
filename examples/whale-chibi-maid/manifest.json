@@ -1,0 +1,64 @@
+{
+  "schema_version": 1,
+  "id": "whale-chibi-maid",
+  "name": "大肥鱼Q版_女仆装_简单四视图_v001",
+  "release": "examples-2026-10-14",
+  "preview_source": "大肥鱼Q版_简单四视图资产卡_原像素_v002.png",
+  "notes": "目录包含 v001、v002 整卡，预览采用 v002；v001 对应的旧脸部原图不在所选目录中，不从整卡裁切补造。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写_v002.png",
+      "bytes": 2020861,
+      "sha256": "b2c342e05a162dfef227b0abddd75ec250511af5e667ba043c0b1eaebba75cd4",
+      "media_type": "png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "02_正面.png",
+      "bytes": 1936114,
+      "sha256": "3213c4c03a2415b4027b9f9b724b6196b45531478c882b11201231e2496dd8e0",
+      "media_type": "png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "03_侧面.png",
+      "bytes": 1812794,
+      "sha256": "1661c03d4168857fe90f106abbe0550391673225ebd29ed94af3053fd290769d",
+      "media_type": "png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "04_背面.png",
+      "bytes": 1870959,
+      "sha256": "3aee2e61ea7d21ca31e277095ecc0541ea7ad550dd68847c496dd0af2f7792d6",
+      "media_type": "png",
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "大肥鱼Q版_简单四视图资产卡_原像素_v001.png",
+      "bytes": 8217212,
+      "sha256": "e50aef8c97372317ee61135856db6b8cd10014221c23c2ca01f5eb6a64615d9f",
+      "media_type": "png",
+      "width": 2668,
+      "height": 2988
+    },
+    {
+      "name": "大肥鱼Q版_简单四视图资产卡_原像素_v002.png",
+      "bytes": 8215047,
+      "sha256": "45e9a2424869d164d90b10585a7044d8919475ec8e63d0c9b66f0334d6b0ad78",
+      "media_type": "png",
+      "width": 2668,
+      "height": 2988
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "schema_version": 1,
+  "id": "sam-black-suit",
+  "name": "山姆奥特曼_黑西装_简单高清_v001",
+  "release": "examples-2026-10-14",
+  "preview_source": "山姆奥特曼_简单四视图资产卡_v001.png",
+  "notes": "真人形象创作示例，黑西装造型。",
+  "verification": {
+    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
+    "image_decode": "全部图片完整解码通过",
+    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
+    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  },
+  "files": [
+    {
+      "name": "01_脸部特写.png",
+      "bytes": 2158329,
+      "sha256": "e75e8971f5e8967e49de8b0eb3e985d5a8e881011e1ab7773640817fc67d09f5",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "02_正面.png",
+      "bytes": 1699311,
+      "sha256": "ab8deb57b0cf18f6345611163c23a839eba6489500bcab904210df101719302e",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "03_侧面.png",
+      "bytes": 1673331,
+      "sha256": "aff4f2b581a0539c520d71049dc8db8fc900d523627b3791a50b2cf934fd7666",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "04_背面.png",
+      "bytes": 1707469,
+      "sha256": "b3a11fdc77ae041bb87abcefae1edd12cca1ca59588c28bd9178b4e30bf3028f",
+      "media_type": "png",
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "山姆奥特曼_简单四视图资产卡_v001.png",
+      "bytes": 6379138,
+      "sha256": "2c05d86bb9c96707dd9999eed6ebf550558ee30be66b9953cf9aac1025679e48",
+      "media_type": "png",
+      "width": 2200,
+      "height": 3520
+    }
+  ]
+}
