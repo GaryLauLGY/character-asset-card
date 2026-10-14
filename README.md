@@ -10,6 +10,15 @@
 
 涵盖真人形象、影视角色、动画与 Q 版造型。每套有预览、文件清单和 SHA-256；现有完整卡与各视角图片按套下载，避免重复生成。历史版本及缺失原图会明确说明。
 
+### 成品展示
+
+| 肌肉难梁 · 蓝西装全身四视图 | 大肥鱼少女版 · 女仆装四视图 |
+|:---:|:---:|
+| [<img src="https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/muscle-liang-blue-preview.png" alt="肌肉难梁蓝西装全身四视图资产卡" width="420">](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/muscle-liang-blue-preview.png) | [<img src="https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/whale-girl-maid-preview.png" alt="大肥鱼少女版女仆装四视图资产卡" width="420">](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/whale-girl-maid-preview.png) |
+| [查看示例说明](examples/muscle-liang-blue/README.md) · [下载完整素材包](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/muscle-liang-blue.zip) | [查看示例说明](examples/whale-girl-maid/README.md) · [下载完整素材包](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/whale-girl-maid.zip) |
+
+点击图片查看原尺寸完整卡；下载包包含完整卡与已有独立视角图片。
+
 ## 两种制作方式
 
 | 简单版：四视图 | 复杂版：分模块 |
