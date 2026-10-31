@@ -1,39 +1,27 @@
 # Character Asset Card · 人物资产卡 Skill
 
-把一张或多张人物参考图，组织成可复用的人物资产卡：先独立生成各视角或细节图，再用HTML/CSS与确定性绘图方式排版，最终以原生像素拼合完整PNG。
+把人物参考照制作成可复用的六宫格资产卡：**每格独立新生图，整套实际看图复检，再以原像素拼合完整PNG**。
 
-这是 Gary 从日常AIGC制作中整理的工作流 Skill，支持简单版与复杂版。它提供制作步骤、参考分工、提示词模板和像素校验脚本；不捆绑图像模型、API服务或私有制作项目。另提供 15 套作者选定的已有资产卡示例与下载包。
+本仓库专门维护可安装 Skill、提示词参考、拼合与像素校验脚本。具体人物制作、原始参考和私人记录留在使用方项目。
 
-## 示例与现成资产
+## 默认六宫格
 
-**[浏览 15 套人物资产卡](examples/README.md)** · [素材发布与版本](https://github.com/GaryLauLGY/character-asset-card/releases) · [素材使用说明](examples/USAGE.md)
+| 正面 | 侧面 | 背面 |
+|---|---|---|
+| 01 正面头部 | 02 侧面头部 | 03 背面头部 |
+| 04 正面身体 | 05 侧面身体 | 06 背面身体 |
 
-涵盖真人形象、影视角色、动画与 Q 版造型。每套有预览、文件清单和 SHA-256；现有完整卡与各视角图片按套下载，避免重复生成。历史版本及缺失原图会明确说明。
+- 上排是1:1方形头部肩颈近照：完整头、自然脖子、肩颈、衣领及少量上胸或上背，聚焦头部。
+- 下排保留完整脖子至鞋底，头部自然位于画面之外；不是无脖子、空领口或断颈模型。
+- 三列两排上下画框等宽，只留六个编号/视图短标签。卡面不加大标题、版本、比例或制作说明。
+- 每格分别生成，默认不编辑旧图、不从整张多宫格裁出假原图。复检发现问题时只定向重生相关格子。
+- 完整卡和六张采用原图共同保留；PNG无损、原图1:1整数坐标置入。技术检查与人物相似度/观感验收分别记录。
 
-### 成品展示
-
-| 肌肉难梁 · 蓝西装全身四视图 | 大肥鱼少女版 · 女仆装四视图 |
-|:---:|:---:|
-| [<img src="https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/muscle-liang-blue-preview.png" alt="肌肉难梁蓝西装全身四视图资产卡" width="420">](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/muscle-liang-blue-preview.png) | [<img src="https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14-whale-girl-v003/whale-girl-maid-v003-preview.png" alt="大肥鱼少女版女仆装四视图资产卡" width="420">](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14-whale-girl-v003/whale-girl-maid-v003-preview.png) |
-| [查看示例说明](examples/muscle-liang-blue/README.md) · [下载完整素材包](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/muscle-liang-blue.zip) | [查看示例说明](examples/whale-girl-maid/README.md) · [下载完整素材包](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14-whale-girl-v003/whale-girl-maid-v003.zip) |
-
-点击图片查看原尺寸完整卡；下载包包含完整卡与已有独立视角图片。
-
-## 两种制作方式
-
-| 简单版：四视图 | 复杂版：分模块 |
-|---|---|
-| 脸部特写、正面全身、侧面全身、背面全身，四张分别生成 | 三视图，加上需要的表情、服装、鞋履或配饰细节 |
-| 通常2×2排版 | 按用途与实际模块数安排页面 |
-| 完整卡与四张采用原图共同保留 | 完整卡与全部采用原图共同保留 |
-
-正、侧、背默认完整保留头顶至鞋底，并留出边缘余量；只有明确要求半身或膝上时才改变景别。参考没拍到下半身或鞋履时做克制补全并标注，不自动截成半身。
-
-两种方式在生成后都执行 [AI 整套一致性复检](skills/character-asset-card/references/consistency-review.md)：AI 实际对照参考和全部生成图，自行识别应保持的设计与关系；发现明确矛盾则定向修复，再对整套图复检，通过后拼合。参考中没有的背面或鞋履细节明确标为设计补全。
+用户明确要四视图时，仍支持“头部肩颈近照＋正侧背完整全身”；复杂版按需增加表情、服装或配饰模块。详情见 [SKILL.md](skills/character-asset-card/SKILL.md)。
 
 ## 安装
 
-把仓库中的 `skills/character-asset-card` 文件夹复制到目标项目的 `.agents/skills/` 下。已有同名 Skill 时先比较版本，保留自己的修改，不直接覆盖。
+将 `skills/character-asset-card` 复制到目标项目的 `.agents/skills/`。已有同名Skill时先比较，保留本地修改。
 
 ```bash
 git clone https://github.com/GaryLauLGY/character-asset-card.git
@@ -41,48 +29,45 @@ mkdir -p /path/to/your-project/.agents/skills
 cp -R character-asset-card/skills/character-asset-card /path/to/your-project/.agents/skills/
 ```
 
-将 `/path/to/your-project` 换成自己的项目路径。在能读取 `SKILL.md` 的环境中使用；生图部分需要该环境实际提供支持参考图的图像生成工具，没有工具时只能准备规划与提示词。
+生图需要宿主实际提供支持参考图的图像工具；本仓库不捆绑模型、API或凭据。没有工具时只能准备构图、提示词和记录，不能伪造成图。
 
-## 使用示例
+## 使用
 
-简单版：
+> 使用 $character-asset-card，根据我的身份与服装参考分别生成六张新图。上排正侧背为1:1头部肩颈近照，下排保留完整脖子至鞋底。上下等宽，只留编号和视图标签，原像素拼合并保留全部原图。
 
-> 使用 $character-asset-card，根据我提供的照片制作简单人物资产卡。分别生成脸部特写、正面全身、侧面全身、背面全身，保留指定服装，最终交付完整PNG和四张采用原图。
+详细构图与参考职责见 [六宫格模板](skills/character-asset-card/references/six-grid-template.md)；生成后按 [AI一致性复检](skills/character-asset-card/references/consistency-review.md) 对照整套图片。未见的背面或鞋履细节标为设计补全，不把低清参考推定当精确还原。
 
-复杂版：
+## 原像素等宽拼合
 
-> 使用 $character-asset-card，参考A负责人物身份，参考B负责服装。制作三视图、平静和微笑表情、服装材质及鞋履细节。各模块独立生成，原像素拼合，并保留所有采用原图。
-
-输出位置、尺寸、背景与需要的模块都可以在请求中指定。HTML用于布局和预览；独立原图与完整PNG是默认保留的核心资产，按需提供HTML。
-
-## 原像素校验
-
-拼合时采用图按1:1原生尺寸和整数坐标放置，不缩放、不裁切、不调色。PNG使用无损编码；文件大小和“几倍导出”不能证明画质保留。提供的脚本会逐模块比较解码后的RGBA像素。
+只加画布，不缩放、拉伸、裁切、调色或重采样原图。例如头部1254×1254、身体1024×1536时，身体两侧各补115像素背景，上下外框同宽，原始1024×1536区域完全不变。实际尺寸按输出核对，不依赖提示词中的请求值。
 
 ```bash
 python3 -m pip install -r requirements.txt
-python3 skills/character-asset-card/scripts/verify_native_pixels.py   完整资产卡.png 像素区域映射.json --report 像素校验结果.json
+python3 skills/character-asset-card/scripts/compose_six_grid.py 01_正面头部.png 02_侧面头部.png 03_背面头部.png 04_正面身体.png 05_侧面身体.png 06_背面身体.png --output 完整卡.png --mapping 像素区域映射.json
+python3 skills/character-asset-card/scripts/verify_native_pixels.py 完整卡.png 像素区域映射.json --report 原像素校验.json
 ```
 
-映射格式与制作示例见 [通用示例](skills/character-asset-card/references/project-examples.md)。必须为全部采用图填写准确位置与实际尺寸，报告文件使用新路径。校验通过表示拼合保留像素，人物相似度、表情与设计一致性仍需实际看图判断。
+脚本自动查找macOS/Linux中文字体；其他环境用 `--font` 指定字体。默认补边复制外侧背景像素，边缘含主体时加 `--padding neutral`。已有输出不会被覆盖。校验逐通道比较六个原图区域，不把文件大小、PNG后缀或几倍导出当画质证明。
 
-## 仓库结构
+## 历史示例
+
+[浏览15套历史人物资产卡](examples/README.md) · [已有素材发布](https://github.com/GaryLauLGY/character-asset-card/releases) · [素材使用说明](examples/USAGE.md)
+
+历史示例保留其当时的四视图/分模块规格与既有下载方式，不作为当前六宫格默认。更新Skill不自动重制历史示例，也不默认创建ZIP或上传新的具体人物照片。
+
+## 目录与维护
 
 ```text
-skills/character-asset-card/  # 可安装 Skill：流程、模板、像素校验工具
-examples/README.md          # 人物资产目录
-examples/catalog.json       # 机器可读下载索引
-examples/<角色ID>/          # 每套说明与文件清单
-GitHub Releases            # 原始图片 ZIP、原尺寸预览、SHA256SUMS.txt
+skills/character-asset-card/  可安装Skill与脚本
+examples/                    已有公开示例目录与清单
+AGENTS.md                    本仓库维护边界与检查要求
 ```
 
-图片和下载包保存在 Releases，不进入 Git 历史；安装 Skill 只需要复制 `skills/character-asset-card`。历史示例展示当时的产物，不覆盖当前 Skill 的默认全身规则。新增资产使用新 Release 保留旧版本。
+可安装源码以本仓库的 `skills/character-asset-card/` 为准。使用方的安装副本按需要比较同步，不将私人项目路径或素材复制进公开源码。
 
-## 文件
+- [构图与提示词记录](skills/character-asset-card/references/prompt-and-record.md)
+- [通用制作及映射示例](skills/character-asset-card/references/project-examples.md)
+- [原像素拼合脚本](skills/character-asset-card/scripts/compose_six_grid.py)
+- [逐像素校验脚本](skills/character-asset-card/scripts/verify_native_pixels.py)
 
-- [SKILL.md](skills/character-asset-card/SKILL.md)：完整制作流程。
-- [提示词与记录模板](skills/character-asset-card/references/prompt-and-record.md)：参考职责、模块变量和留档方式。
-- [制作与拼合示例](skills/character-asset-card/references/project-examples.md)：两种制作级别、HTML拼合及校验映射。
-- [像素校验脚本](skills/character-asset-card/scripts/verify_native_pixels.py)：读取成品与原图，不修改图片。
-
-代码与文档采用 [MIT License](LICENSE)。你可以按自己的工具和项目习惯适配。示例图片单独遵循[素材使用说明](examples/USAGE.md)，不将代码的 MIT 许可自动扩展为第三方角色或肖像授权。
+代码与文档采用 [MIT License](LICENSE)；历史示例图片另见[素材使用说明](examples/USAGE.md)。

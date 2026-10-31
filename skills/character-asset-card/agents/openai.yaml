@@ -1,4 +1,4 @@
 interface:
-  display_name: "分模块角色资产卡"
-  short_description: "默认全身三视图加脸部特写，支持复杂分模块，保留完整卡和每张独立原图"
-  default_prompt: "使用 $character-asset-card，按本次需求选择简单四视图或复杂分模块，正侧背默认完整全身、脸部单独特写，独立生图、AI整套一致性复检与定向修复、原像素拼合，并保留完整卡和所有采用的独立图片。"
+  display_name: "六宫格人物资产卡"
+  short_description: "默认正侧背六宫格，上排方形头部肩颈近照、下排保留脖子至鞋底，原像素合卡并保留独立原图"
+  default_prompt: "使用 $character-asset-card 制作三列两排六宫格：上排正侧背1:1头部肩颈近照，下排对应保留完整脖子至鞋底的自然取景，独立生图、整套一致性复检、原像素拼合，保留整卡及六张原图。"
