@@ -1,0 +1,64 @@
+{
+  "version": "2026-11-01-head-closeup-v003",
+  "head_height_target": "approximately 80%; natural complete neck and entire head take priority; visually verify actual output",
+  "layout": "3 columns x 2 rows; upper square head close-ups; lower neck-to-shoes",
+  "references": [
+    {
+      "view": "head-front",
+      "module_index": 1,
+      "file": "head-front.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "01eb281318db6ba3f3e9792009b50fccca1e5af28822f986172b0c8eb8a99d1b",
+      "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style"
+    },
+    {
+      "view": "head-left",
+      "module_index": 2,
+      "file": "head-left.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "97911fd40bfe73e439b187dbea032dbcc19983c7167e791c0e4cf34806bf55d1",
+      "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style"
+    },
+    {
+      "view": "head-back",
+      "module_index": 3,
+      "file": "head-back.png",
+      "width": 1254,
+      "height": 1254,
+      "sha256": "9a093196220b6b5f52b00472e181be22242a3abe7bda72e7feac7d6e2d2480c0",
+      "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style"
+    },
+    {
+      "view": "body-front",
+      "module_index": 4,
+      "file": "body-front.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "52480f9af941d0816975fb6fe33c736c2a67412fef5e24381f0281e632e2e7a8",
+      "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style"
+    },
+    {
+      "view": "body-left",
+      "module_index": 5,
+      "file": "body-left.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "7645105542f26e33df0a1523bb12b28b0c867cb2a1f135798334311bafef537e",
+      "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style"
+    },
+    {
+      "view": "body-back",
+      "module_index": 6,
+      "file": "body-back.png",
+      "width": 1024,
+      "height": 1536,
+      "sha256": "e78533d1cfbe9f14f8160ee91af43e48a3e997ae41008d3452c2310a0ee10ba9",
+      "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style"
+    }
+  ],
+  "use": "Pass exactly the matching single-view PNG as an actual image reference for each six-grid generation, alongside the separate identity and outfit references. User-specific framing references take priority.",
+  "scope": "This neutral mannequin only supplies camera view and framing. It is not a target character or an edit canvas.",
+  "license": "Neutral AI-generated framing references distributed with this skill under the repository license."
+}

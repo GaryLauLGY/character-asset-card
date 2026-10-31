@@ -19,6 +19,14 @@
 
 用户明确要四视图时，仍支持“头部肩颈近照＋正侧背完整全身”；复杂版按需增加表情、服装或配饰模块。详情见 [SKILL.md](skills/character-asset-card/SKILL.md)。
 
+## 内置白模构图参考
+
+Skill随附六张原生PNG，见 [参考目录与SHA](skills/character-asset-card/assets/framing/manifest.json)。上排三张已按紧凑头部特写重生，保留自然脖子与少量衣领；下排为保留脖子至鞋底的三个视角。六宫格逐格实际传入对应白模，身份与服装使用各自参考。
+
+[正面头部](skills/character-asset-card/assets/framing/head-front.png) · [侧面头部](skills/character-asset-card/assets/framing/head-left.png) · [背面头部](skills/character-asset-card/assets/framing/head-back.png)
+
+提交前用 [构图参考检查脚本](skills/character-asset-card/scripts/check_framing_reference.py) 核对真实图片参数；只写“参考白模”不算已接入。
+
 ## 安装
 
 将 `skills/character-asset-card` 复制到目标项目的 `.agents/skills/`。已有同名Skill时先比较，保留本地修改。
