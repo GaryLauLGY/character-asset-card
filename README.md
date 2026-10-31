@@ -21,7 +21,7 @@
 
 ## 内置白模构图参考
 
-Skill随附六张原生PNG，见 [参考目录与SHA](skills/character-asset-card/assets/framing/manifest.json)。上排三张已按紧凑头部特写重生，保留自然脖子与少量衣领；下排为保留脖子至鞋底的三个视角。六宫格逐格实际传入对应白模，身份与服装使用各自参考。
+Skill随附六张原生PNG，见 [参考目录与SHA](skills/character-asset-card/assets/framing/manifest.json)。上排三张已按紧凑头部特写重生，保留自然脖子与少量衣领；下排为保留脖子至鞋底的三个视角。六宫格逐格实际传入对应白模，身份与服装使用各自参考。侧面统一为整个人转满90度，头、颈、肩胸与骨盆同向。
 
 [正面头部](skills/character-asset-card/assets/framing/head-front.png) · [侧面头部](skills/character-asset-card/assets/framing/head-left.png) · [背面头部](skills/character-asset-card/assets/framing/head-back.png)
 

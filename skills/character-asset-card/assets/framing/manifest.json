@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-01-head-closeup-v003",
+  "version": "2026-11-01-head-closeup-v003-r002",
   "head_height_target": "approximately 80%; natural complete neck and entire head take priority; visually verify actual output",
   "layout": "3 columns x 2 rows; upper square head close-ups; lower neck-to-shoes",
   "references": [
@@ -18,7 +18,7 @@
       "file": "head-left.png",
       "width": 1254,
       "height": 1254,
-      "sha256": "97911fd40bfe73e439b187dbea032dbcc19983c7167e791c0e4cf34806bf55d1",
+      "sha256": "122fb78347ca6ec1ef3b28791052c27f1d94e25c99fef0a529b308b3425e6684",
       "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style"
     },
     {
@@ -60,5 +60,6 @@
   ],
   "use": "Pass exactly the matching single-view PNG as an actual image reference for each six-grid generation, alongside the separate identity and outfit references. User-specific framing references take priority.",
   "scope": "This neutral mannequin only supplies camera view and framing. It is not a target character or an edit canvas.",
-  "license": "Neutral AI-generated framing references distributed with this skill under the repository license."
+  "license": "Neutral AI-generated framing references distributed with this skill under the repository license.",
+  "side_orientation": "Entire person faces image left at 90 degrees: head, neck, ribcage, shoulders, pelvis and feet share one direction; near shoulder occludes far shoulder even in a tight head crop."
 }
