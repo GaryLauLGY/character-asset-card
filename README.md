@@ -27,6 +27,8 @@ Skill随附六张原生PNG，见 [参考目录与SHA](skills/character-asset-car
 
 提交前用 [构图参考检查脚本](skills/character-asset-card/scripts/check_framing_reference.py) 核对真实图片参数；只写“参考白模”不算已接入。
 
+身体格首轮先用明确的颈部上边界：画面经过下颌以下的上颈部皮肤，整个头部在画外，保留自然脖子至鞋底；身体提示词只写可见体型／肤色／服装。提交前核对当前单格白模，拒绝夹带退役构图图。后验目检仍保留，软参考不保证一遍必成。
+
 ## 安装
 
 将 `skills/character-asset-card` 复制到目标项目的 `.agents/skills/`。已有同名Skill时先比较，保留本地修改。

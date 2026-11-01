@@ -1,5 +1,5 @@
 {
-  "version": "2026-11-01-head-closeup-v003-r002",
+  "version": "2026-11-01-body-neck-only-v004",
   "head_height_target": "approximately 80%; natural complete neck and entire head take priority; visually verify actual output",
   "layout": "3 columns x 2 rows; upper square head close-ups; lower neck-to-shoes",
   "references": [
@@ -36,8 +36,9 @@
       "file": "body-front.png",
       "width": 1024,
       "height": 1536,
-      "sha256": "52480f9af941d0816975fb6fe33c736c2a67412fef5e24381f0281e632e2e7a8",
-      "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style"
+      "sha256": "c963174804bb5ff46a9227df76c9461d67e4645ee6936abb945aede23038c12f",
+      "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style",
+      "top_frame": "upper-neck skin strictly below entire jaw/occiput; no head part in picture; natural neck retained"
     },
     {
       "view": "body-left",
@@ -45,8 +46,9 @@
       "file": "body-left.png",
       "width": 1024,
       "height": 1536,
-      "sha256": "7645105542f26e33df0a1523bb12b28b0c867cb2a1f135798334311bafef537e",
-      "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style"
+      "sha256": "7a8b3c58dcd0336d5e88eaeef33a5ac4701ce51dabf4524bf60765795ef0ea71",
+      "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style",
+      "top_frame": "upper-neck skin strictly below entire jaw/occiput; no head part in picture; natural neck retained"
     },
     {
       "view": "body-back",
@@ -54,12 +56,31 @@
       "file": "body-back.png",
       "width": 1024,
       "height": 1536,
-      "sha256": "e78533d1cfbe9f14f8160ee91af43e48a3e997ae41008d3452c2310a0ee10ba9",
-      "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style"
+      "sha256": "76fa549a9452f7cc9cb0044a9d4bb7552b3d63bcb3a146f37a4a2dd65d4a7606",
+      "role": "camera direction and framing only; not identity, anatomy, hairstyle, skin, clothes or render style",
+      "top_frame": "upper-neck skin strictly below entire jaw/occiput; no head part in picture; natural neck retained"
     }
   ],
   "use": "Pass exactly the matching single-view PNG as an actual image reference for each six-grid generation, alongside the separate identity and outfit references. User-specific framing references take priority.",
   "scope": "This neutral mannequin only supplies camera view and framing. It is not a target character or an edit canvas.",
   "license": "Neutral AI-generated framing references distributed with this skill under the repository license.",
-  "side_orientation": "Entire person faces image left at 90 degrees: head, neck, ribcage, shoulders, pelvis and feet share one direction; near shoulder occludes far shoulder even in a tight head crop."
+  "side_orientation": "Entire person faces image left at 90 degrees: head, neck, ribcage, shoulders, pelvis and feet share one direction; near shoulder occludes far shoulder even in a tight head crop.",
+  "body_framing": "Frame upper-neck skin below the entire jaw; all chin/jaw contours, mouth, ears and skull outside the picture. Retain natural visible neck continuously to collar, shoulders and soles.",
+  "retired_references": [
+    {
+      "view": "body-front",
+      "sha256": "52480f9af941d0816975fb6fe33c736c2a67412fef5e24381f0281e632e2e7a8",
+      "reason": "superseded neck framing; old front and side included chin/jaw fragments"
+    },
+    {
+      "view": "body-left",
+      "sha256": "7645105542f26e33df0a1523bb12b28b0c867cb2a1f135798334311bafef537e",
+      "reason": "superseded neck framing; old front and side included chin/jaw fragments"
+    },
+    {
+      "view": "body-back",
+      "sha256": "e78533d1cfbe9f14f8160ee91af43e48a3e997ae41008d3452c2310a0ee10ba9",
+      "reason": "superseded neck framing; old front and side included chin/jaw fragments"
+    }
+  ]
 }

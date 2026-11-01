@@ -48,6 +48,9 @@ def main():
             wrong = {item['sha256'] for item in entries if item['view'] != args.view}
             if any(digest in wrong for _, digest in inputs):
                 raise ValueError('Another bundled framing view is also present; pass only the matching view.')
+            retired = {item['sha256'] for item in manifest.get('retired_references', [])}
+            if any(digest in retired for _, digest in inputs):
+                raise ValueError('A retired framing PNG is also present; remove the old reference before generation.')
         print(json.dumps({'view': args.view, 'framing_file': str(expected),
                           'sha256': expected_sha, 'matched_input_paths': matches,
                           'framing_reference_in_arguments': True}, ensure_ascii=False))
