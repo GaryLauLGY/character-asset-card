@@ -57,6 +57,10 @@ python3 skills/character-asset-card/scripts/verify_native_pixels.py 完整卡.pn
 
 脚本自动查找macOS/Linux中文字体；其他环境用 `--font` 指定字体。默认补边复制外侧背景像素，边缘含主体时加 `--padding neutral`。已有输出不会被覆盖。校验逐通道比较六个原图区域，不把文件大小、PNG后缀或几倍导出当画质证明。
 
+## 只取当前版本
+
+已有资产库使用 [当前采用索引](skills/character-asset-card/references/current-selection.md) 按人物和造型取图；[取图脚本](skills/character-asset-card/scripts/find_current_asset.py) 验证路径与SHA，歧义或缺文件时报错。用户授权清旧版本后，将退役卡移出可选库并同步管理入口，保住当前采用原图，不重建旧卡兼容链接。
+
 ## 历史示例
 
 [浏览15套历史人物资产卡](examples/README.md) · [已有素材发布](https://github.com/GaryLauLGY/character-asset-card/releases) · [素材使用说明](examples/USAGE.md)
