@@ -25,7 +25,7 @@ Skill随附六张原生PNG，见 [参考目录与SHA](skills/character-asset-car
 
 [正面头部](skills/character-asset-card/assets/framing/head-front.png) · [侧面头部](skills/character-asset-card/assets/framing/head-left.png) · [背面头部](skills/character-asset-card/assets/framing/head-back.png)
 
-提交前用 [构图参考检查脚本](skills/character-asset-card/scripts/check_framing_reference.py) 核对真实图片参数；只写“参考白模”不算已接入。
+六宫格每次先用 [单视角请求准备器](skills/character-asset-card/scripts/prepare_six_grid_request.py) 写出本格参数，再用 [生成前检查脚本](skills/character-asset-card/scripts/check_framing_reference.py) 核对单主体／唯一视角、已知歧义和真实白模输入。背视图明确“纯背面、相机在人物正后方”，其他视角、整卡排版和制作备注不进入本次提示词。步骤见 [单次请求模板](skills/character-asset-card/references/prompt-and-record.md)。旧的无单主体开头请求需先重新准备；历史实际请求原样保留，不自动重跑。
 
 身体格首轮先用明确的颈部上边界：画面经过下颌以下的上颈部皮肤，整个头部在画外，保留自然脖子至鞋底；身体提示词只写可见体型／肤色／服装。提交前核对当前单格白模，拒绝夹带退役构图图。后验目检仍保留，软参考不保证一遍必成。
 
