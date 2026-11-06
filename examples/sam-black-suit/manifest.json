@@ -1,56 +1,93 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "sam-black-suit",
-  "name": "山姆奥特曼_黑西装_简单高清_v001",
-  "release": "examples-2026-10-14",
-  "preview_source": "山姆奥特曼_简单四视图资产卡_v001.png",
-  "notes": "真人形象创作示例，黑西装造型。",
-  "verification": {
-    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
-    "image_decode": "全部图片完整解码通过",
-    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
-    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  "name": "奥特曼 · 黑西装",
+  "format": "six-grid",
+  "layout": {
+    "columns": 3,
+    "rows": 2,
+    "order": [
+      "front",
+      "side",
+      "back"
+    ]
   },
+  "release": "examples-2026-11-06-six-grid",
   "files": [
     {
-      "name": "01_脸部特写.png",
-      "bytes": 2158329,
-      "sha256": "e75e8971f5e8967e49de8b0eb3e985d5a8e881011e1ab7773640817fc67d09f5",
-      "media_type": "png",
+      "name": "sam-black-suit--card.png",
+      "label": "整卡",
+      "role": "card",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/sam-black-suit--card.png",
+      "sha256": "2de7bb4f064ee0e163a475cbf250ff8cc999ac557aa2bedccbbc0802319705c9",
+      "bytes": 12414122,
+      "width": 3874,
+      "height": 2986
+    },
+    {
+      "name": "sam-black-suit--01-head-front.png",
+      "label": "01 正面头部",
+      "role": "01-head-front",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/sam-black-suit--01-head-front.png",
+      "sha256": "5f37d60d850ef529ca0eb5690e09684f3dd538c0614d1e8c221e398a3ab29ba6",
+      "bytes": 2160500,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "sam-black-suit--02-head-left.png",
+      "label": "02 侧面头部",
+      "role": "02-head-left",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/sam-black-suit--02-head-left.png",
+      "sha256": "ea115da35fe04261badeaf0c9b7f53909acac7ef53d0db81462e2f8b3f857642",
+      "bytes": 2390403,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "sam-black-suit--03-head-back.png",
+      "label": "03 背面头部",
+      "role": "03-head-back",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/sam-black-suit--03-head-back.png",
+      "sha256": "883dcd90b2a0bb9999e310f734464d4d69a1d2d22f600c1b1a6d3ed6467ba2e1",
+      "bytes": 2416692,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "sam-black-suit--04-body-front.png",
+      "label": "04 正面身体",
+      "role": "04-body-front",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/sam-black-suit--04-body-front.png",
+      "sha256": "6e2305eb443b457445e9f44492533daab68ca74996a93b2e8dc2dad382e61b4a",
+      "bytes": 1758354,
       "width": 1024,
       "height": 1536
     },
     {
-      "name": "02_正面.png",
-      "bytes": 1699311,
-      "sha256": "ab8deb57b0cf18f6345611163c23a839eba6489500bcab904210df101719302e",
-      "media_type": "png",
+      "name": "sam-black-suit--05-body-left.png",
+      "label": "05 侧面身体",
+      "role": "05-body-left",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/sam-black-suit--05-body-left.png",
+      "sha256": "ded5796e4f8d04eff62eed0095d5317219d76efacd79dea9273b1c4b57ae327b",
+      "bytes": 1674362,
       "width": 1024,
       "height": 1536
     },
     {
-      "name": "03_侧面.png",
-      "bytes": 1673331,
-      "sha256": "aff4f2b581a0539c520d71049dc8db8fc900d523627b3791a50b2cf934fd7666",
-      "media_type": "png",
+      "name": "sam-black-suit--06-body-back.png",
+      "label": "06 背面身体",
+      "role": "06-body-back",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/sam-black-suit--06-body-back.png",
+      "sha256": "967c0f0764322570973832159b760f41a90dfdca13a755b29ac05341a9574a9c",
+      "bytes": 1692019,
       "width": 1024,
       "height": 1536
-    },
-    {
-      "name": "04_背面.png",
-      "bytes": 1707469,
-      "sha256": "b3a11fdc77ae041bb87abcefae1edd12cca1ca59588c28bd9178b4e30bf3028f",
-      "media_type": "png",
-      "width": 1024,
-      "height": 1536
-    },
-    {
-      "name": "山姆奥特曼_简单四视图资产卡_v001.png",
-      "bytes": 6379138,
-      "sha256": "2c05d86bb9c96707dd9999eed6ebf550558ee30be66b9953cf9aac1025679e48",
-      "media_type": "png",
-      "width": 2200,
-      "height": 3520
     }
-  ]
+  ],
+  "verification": {
+    "original_image_bytes": "All PNG bytes and SHA-256 equal the adopted source files; no resizing, cropping or re-encoding.",
+    "decoded_images": "7/7 complete PNG decode passed",
+    "scope": "Publication of existing adopted assets; no new image generation or visual re-acceptance."
+  }
 }

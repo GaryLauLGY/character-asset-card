@@ -1,23 +1,21 @@
-# 老黄_黑皮衣_简单高清_v001
+# 老黄 · 黑皮衣
 
-[下载完整素材包](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/jensen-black-leather.zip) · [查看原尺寸预览](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/jensen-black-leather-preview.png) · [文件清单与 SHA-256](manifest.json) · [返回目录](../README.md)
+三列两排六宫格：[整卡原始PNG](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--card.png) · [SHA与尺寸清单](manifest.json) · [返回案例目录](../README.md)
 
-![老黄_黑皮衣_简单高清_v001](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-10-14/jensen-black-leather-preview.png)
+![老黄 · 黑皮衣六宫格](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--card.png)
 
-## 内容与来源
+上排为正面、侧面、背面头部肩颈近照，下排为对应保留脖子的身体视图。页面按显示宽度展示，下载PNG保留原始像素与字节。
 
-真人形象创作示例，黑皮衣造型。
+| 图片 | 原始尺寸 | 下载 |
+|---|---:|---|
+| 整卡 | 3874 × 2986 | [PNG](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--card.png) |
+| 01 正面头部 | 1254 × 1254 | [PNG](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--01-head-front.png) |
+| 02 侧面头部 | 1254 × 1254 | [PNG](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--02-head-left.png) |
+| 03 背面头部 | 1254 × 1254 | [PNG](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--03-head-back.png) |
+| 04 正面身体 | 1024 × 1536 | [PNG](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--04-body-front.png) |
+| 05 侧面身体 | 1024 × 1536 | [PNG](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--05-body-left.png) |
+| 06 背面身体 | 1024 × 1536 | [PNG](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--06-body-back.png) |
 
-这些文件来自作者已有的人物资产卡制作成果，由作者选择公开；本次未重新生成、缩放或重新编码图片。预览为现有完整卡；梁圣预览为其原始三视图，完整卡使用包内 HTML 打开。
+整卡与六张独立生成原图共同提供；未从整卡裁出模块，未重生、缩放或重新编码。校验可使用Release的 [SHA256SUMS.txt](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/SHA256SUMS.txt) 与本页manifest。
 
-## 文件
-
-| 文件 | 尺寸 | 大小 |
-|---|---:|---:|
-| `01_脸部特写.png` | 1024 × 1536 | 2.62 MiB |
-| `02_正面.png` | 1024 × 1536 | 1.75 MiB |
-| `03_侧面.png` | 1024 × 1536 | 1.72 MiB |
-| `04_背面.png` | 1024 × 1536 | 1.76 MiB |
-| `老黄_简单四视图资产卡_v001.png` | 2200 × 3520 | 7.18 MiB |
-
-包内 `manifest.json` 记录每个文件的 SHA-256。图片完整解码与打包一致性已检查；不把这次检查当作人物相似度、几何一致性或历史整卡原像素验收。使用前请阅读[素材使用说明](../USAGE.md)。
+[素材使用说明](../USAGE.md)

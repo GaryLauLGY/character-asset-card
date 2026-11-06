@@ -1,56 +1,93 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "dario-open-collar",
-  "name": "Dario_深蓝开领西装_简单高清_v001",
-  "release": "examples-2026-10-14",
-  "preview_source": "Dario_简单四视图资产卡_v001.png",
-  "notes": "真人形象创作示例，深蓝开领西装造型。",
-  "verification": {
-    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
-    "image_decode": "全部图片完整解码通过",
-    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
-    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  "name": "达里奥 · 深蓝开领西装",
+  "format": "six-grid",
+  "layout": {
+    "columns": 3,
+    "rows": 2,
+    "order": [
+      "front",
+      "side",
+      "back"
+    ]
   },
+  "release": "examples-2026-11-06-six-grid",
   "files": [
     {
-      "name": "01_脸部特写.png",
-      "bytes": 2425698,
-      "sha256": "84d6ba20756581f70388a7b95f2418b9448013723855aa771f626d20d1539fd6",
-      "media_type": "png",
+      "name": "dario-open-collar--card.png",
+      "label": "整卡",
+      "role": "card",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/dario-open-collar--card.png",
+      "sha256": "817657c76a058c9028350cf24c98b86d918b989ed5d6788ff4b72e023d190894",
+      "bytes": 13241299,
+      "width": 3874,
+      "height": 2986
+    },
+    {
+      "name": "dario-open-collar--01-head-front.png",
+      "label": "01 正面头部",
+      "role": "01-head-front",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/dario-open-collar--01-head-front.png",
+      "sha256": "b217e948fc1b41e481fc8c76ccff7b66c46233a320eea2dd4e00e91190c9c137",
+      "bytes": 2188812,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "dario-open-collar--02-head-left.png",
+      "label": "02 侧面头部",
+      "role": "02-head-left",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/dario-open-collar--02-head-left.png",
+      "sha256": "06ae54f4833725ca3902f6f09ceabb58a764afb6e846e04e0de9ad6942843732",
+      "bytes": 2450210,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "dario-open-collar--03-head-back.png",
+      "label": "03 背面头部",
+      "role": "03-head-back",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/dario-open-collar--03-head-back.png",
+      "sha256": "be08de236416cecfed3379aea1335a6e29bb800637fe1c1c4808dfee138cd66d",
+      "bytes": 2578873,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "dario-open-collar--04-body-front.png",
+      "label": "04 正面身体",
+      "role": "04-body-front",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/dario-open-collar--04-body-front.png",
+      "sha256": "a485088646091a26504ee26c882e766314ffdd03fe6eff3fef89d1e5f0d48590",
+      "bytes": 1794371,
       "width": 1024,
       "height": 1536
     },
     {
-      "name": "02_正面.png",
-      "bytes": 1795843,
-      "sha256": "81bbb0e780f63140e4c9a2d20f798120e29eb37dc38bf69eb9088829858032d9",
-      "media_type": "png",
+      "name": "dario-open-collar--05-body-left.png",
+      "label": "05 侧面身体",
+      "role": "05-body-left",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/dario-open-collar--05-body-left.png",
+      "sha256": "1c6d93f8dff5208e3589c1eefed3a5fb593d0e9a4e802e5ff4822982904b53b9",
+      "bytes": 1726263,
       "width": 1024,
       "height": 1536
     },
     {
-      "name": "03_侧面.png",
-      "bytes": 1734988,
-      "sha256": "07ce0789ed1329d3fbaf9c3e0886625d50e60af82cbaef8abae90338047ba6d0",
-      "media_type": "png",
+      "name": "dario-open-collar--06-body-back.png",
+      "label": "06 背面身体",
+      "role": "06-body-back",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/dario-open-collar--06-body-back.png",
+      "sha256": "70e629fc00baf08449d5d5420f019ac2e02b203170ae33f6b6d051a0acefdbfc",
+      "bytes": 1817316,
       "width": 1024,
       "height": 1536
-    },
-    {
-      "name": "04_背面.png",
-      "bytes": 1786362,
-      "sha256": "e3bd0b89e9b6fac4293cc439e34040aab199239de27a301ea89a335a5fd431cd",
-      "media_type": "png",
-      "width": 1024,
-      "height": 1536
-    },
-    {
-      "name": "Dario_简单四视图资产卡_v001.png",
-      "bytes": 7084654,
-      "sha256": "6d0caea5105fda4a249863f327984f52448750309c2670fd7801ecbd2741d456",
-      "media_type": "png",
-      "width": 2200,
-      "height": 3520
     }
-  ]
+  ],
+  "verification": {
+    "original_image_bytes": "All PNG bytes and SHA-256 equal the adopted source files; no resizing, cropping or re-encoding.",
+    "decoded_images": "7/7 complete PNG decode passed",
+    "scope": "Publication of existing adopted assets; no new image generation or visual re-acceptance."
+  }
 }

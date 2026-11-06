@@ -1,56 +1,93 @@
 {
-  "schema_version": 1,
+  "schema_version": 2,
   "id": "jensen-black-leather",
-  "name": "老黄_黑皮衣_简单高清_v001",
-  "release": "examples-2026-10-14",
-  "preview_source": "老黄_简单四视图资产卡_v001.png",
-  "notes": "真人形象创作示例，黑皮衣造型。",
-  "verification": {
-    "image_bytes": "全部图片与所选本地文件逐字节一致；符号链接打包为实体文件",
-    "image_decode": "全部图片完整解码通过",
-    "visual_acceptance": "本次为整理发布，不新增人物相似度或造型验收",
-    "legacy_card_pixels": "不以发布打包校验替代历史整卡原像素校验"
+  "name": "老黄 · 黑皮衣",
+  "format": "six-grid",
+  "layout": {
+    "columns": 3,
+    "rows": 2,
+    "order": [
+      "front",
+      "side",
+      "back"
+    ]
   },
+  "release": "examples-2026-11-06-six-grid",
   "files": [
     {
-      "name": "01_脸部特写.png",
-      "bytes": 2749277,
-      "sha256": "932ea6d0b651c8a49f0a631a054b480da888120d3111b24b85f8b4ee601b3dd2",
-      "media_type": "png",
+      "name": "jensen-black-leather--card.png",
+      "label": "整卡",
+      "role": "card",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--card.png",
+      "sha256": "a323c8ad0eeba57c6a79e9942eadf27768b9890968748f5b0f4ea6e20b9572ea",
+      "bytes": 14062971,
+      "width": 3874,
+      "height": 2986
+    },
+    {
+      "name": "jensen-black-leather--01-head-front.png",
+      "label": "01 正面头部",
+      "role": "01-head-front",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--01-head-front.png",
+      "sha256": "77e0f919314d752bc9a60fa7b7e6353363708f88577c281d539a8ccb9ed4cff8",
+      "bytes": 2481140,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "jensen-black-leather--02-head-left.png",
+      "label": "02 侧面头部",
+      "role": "02-head-left",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--02-head-left.png",
+      "sha256": "39df24b932e7dab4fdefa39ab33a69415134f1f95fe22146a08f9c3ad6bd37e9",
+      "bytes": 2529065,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "jensen-black-leather--03-head-back.png",
+      "label": "03 背面头部",
+      "role": "03-head-back",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--03-head-back.png",
+      "sha256": "babe547e69fd978da6c3c7bd6398389a6a85d3c328be0f157ba94947c2d0e2e5",
+      "bytes": 2877559,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "jensen-black-leather--04-body-front.png",
+      "label": "04 正面身体",
+      "role": "04-body-front",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--04-body-front.png",
+      "sha256": "9c5df85c3aeda932253e8ca4e0306a02f9ab009680e5abc397a77ac107c57909",
+      "bytes": 1918073,
       "width": 1024,
       "height": 1536
     },
     {
-      "name": "02_正面.png",
-      "bytes": 1835314,
-      "sha256": "3363e51b5076397805d530774bbbaeb1fc07aa2230e9d763e1703be69af3eb76",
-      "media_type": "png",
+      "name": "jensen-black-leather--05-body-left.png",
+      "label": "05 侧面身体",
+      "role": "05-body-left",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--05-body-left.png",
+      "sha256": "75055b75063780135e48aa7af6c22674b2e05be48640f0214173ef09cf8ff0bb",
+      "bytes": 1793056,
       "width": 1024,
       "height": 1536
     },
     {
-      "name": "03_侧面.png",
-      "bytes": 1798345,
-      "sha256": "1e5768b93d09551cecf3bc90561077c0905a04383280fdb295c5fd599464a0b1",
-      "media_type": "png",
+      "name": "jensen-black-leather--06-body-back.png",
+      "label": "06 背面身体",
+      "role": "06-body-back",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--06-body-back.png",
+      "sha256": "3f2590737d5027e7d291d5fa5ed62ab2c2f94114b045f45f09eb28ed49083a2a",
+      "bytes": 1874559,
       "width": 1024,
       "height": 1536
-    },
-    {
-      "name": "04_背面.png",
-      "bytes": 1840296,
-      "sha256": "d3194d5d28fd17e3bb25bdbbc7c0b36cd53bef023d1bd26ddaa2dfe4b2657589",
-      "media_type": "png",
-      "width": 1024,
-      "height": 1536
-    },
-    {
-      "name": "老黄_简单四视图资产卡_v001.png",
-      "bytes": 7533521,
-      "sha256": "3fdc504bc368347642822ca31a80d82f4af626f9d714abacf4498dff8b12d752",
-      "media_type": "png",
-      "width": 2200,
-      "height": 3520
     }
-  ]
+  ],
+  "verification": {
+    "original_image_bytes": "All PNG bytes and SHA-256 equal the adopted source files; no resizing, cropping or re-encoding.",
+    "decoded_images": "7/7 complete PNG decode passed",
+    "scope": "Publication of existing adopted assets; no new image generation or visual re-acceptance."
+  }
 }

@@ -19,6 +19,19 @@
 
 用户明确要四视图时，仍支持“头部肩颈近照＋正侧背完整全身”；复杂版按需增加表情、服装或配饰模块。详情见 [SKILL.md](skills/character-asset-card/SKILL.md)。
 
+## 六宫格案例
+
+| 老马 · 便服无字黑T紧身牛仔裤 | 老黄 · 黑皮衣 |
+|---|---|
+| [![老马 · 便服无字黑T紧身牛仔裤六宫格](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/elon-casual--card.png)](examples/elon-casual/README.md) | [![老黄 · 黑皮衣六宫格](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--card.png)](examples/jensen-black-leather/README.md) |
+| [整卡PNG](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/elon-casual--card.png) · [六张原图](examples/elon-casual/README.md) | [整卡PNG](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/jensen-black-leather--card.png) · [六张原图](examples/jensen-black-leather/README.md) |
+
+| 奥特曼 · 黑西装 | 达里奥 · 深蓝开领西装 |
+|---|---|
+| [![奥特曼 · 黑西装六宫格](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/sam-black-suit--card.png)](examples/sam-black-suit/README.md) | [![达里奥 · 深蓝开领西装六宫格](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/dario-open-collar--card.png)](examples/dario-open-collar/README.md) |
+| [整卡PNG](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/sam-black-suit--card.png) · [六张原图](examples/sam-black-suit/README.md) | [整卡PNG](https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/dario-open-collar--card.png) · [六张原图](examples/dario-open-collar/README.md) |
+[浏览四套案例与原图](examples/README.md) · [原始PNG下载](https://github.com/GaryLauLGY/character-asset-card/releases/tag/examples-2026-11-06-six-grid) · [素材使用说明](examples/USAGE.md)
+
 ## 内置白模构图参考
 
 Skill随附六张原生PNG，见 [参考目录与SHA](skills/character-asset-card/assets/framing/manifest.json)。上排三张已按紧凑头部特写重生，保留自然脖子与少量衣领；下排为保留脖子至鞋底的三个视角。六宫格逐格实际传入对应白模，身份与服装使用各自参考。侧面统一为整个人转满90度，头、颈、肩胸与骨盆同向。
@@ -63,17 +76,11 @@ python3 skills/character-asset-card/scripts/verify_native_pixels.py 完整卡.pn
 
 已有资产库使用 [当前采用索引](skills/character-asset-card/references/current-selection.md) 按人物和造型取图；[取图脚本](skills/character-asset-card/scripts/find_current_asset.py) 验证路径与SHA，歧义或缺文件时报错。用户授权清旧版本后，将退役卡移出可选库并同步管理入口，保住当前采用原图，不重建旧卡兼容链接。
 
-## 历史示例
-
-[浏览15套历史人物资产卡](examples/README.md) · [已有素材发布](https://github.com/GaryLauLGY/character-asset-card/releases) · [素材使用说明](examples/USAGE.md)
-
-历史示例保留其当时的四视图/分模块规格与既有下载方式，不作为当前六宫格默认。更新Skill不自动重制历史示例，也不默认创建ZIP或上传新的具体人物照片。
-
 ## 目录与维护
 
 ```text
 skills/character-asset-card/  可安装Skill与脚本
-examples/                    已有公开示例目录与清单
+examples/                    四套当前六宫格案例与原图下载清单
 AGENTS.md                    本仓库维护边界与检查要求
 ```
 
@@ -84,4 +91,4 @@ AGENTS.md                    本仓库维护边界与检查要求
 - [原像素拼合脚本](skills/character-asset-card/scripts/compose_six_grid.py)
 - [逐像素校验脚本](skills/character-asset-card/scripts/verify_native_pixels.py)
 
-代码与文档采用 [MIT License](LICENSE)；历史示例图片另见[素材使用说明](examples/USAGE.md)。
+代码与文档采用 [MIT License](LICENSE)；案例图片另见[素材使用说明](examples/USAGE.md)。

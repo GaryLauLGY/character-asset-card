@@ -1,0 +1,93 @@
+{
+  "schema_version": 2,
+  "id": "elon-casual",
+  "name": "老马 · 便服无字黑T紧身牛仔裤",
+  "format": "six-grid",
+  "layout": {
+    "columns": 3,
+    "rows": 2,
+    "order": [
+      "front",
+      "side",
+      "back"
+    ]
+  },
+  "release": "examples-2026-11-06-six-grid",
+  "files": [
+    {
+      "name": "elon-casual--card.png",
+      "label": "整卡",
+      "role": "card",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/elon-casual--card.png",
+      "sha256": "1188940f25923d4cc61c003e420d92a2bfa696f6d4a3d5a7985880d719ddfab6",
+      "bytes": 12305155,
+      "width": 3874,
+      "height": 2986
+    },
+    {
+      "name": "elon-casual--01-head-front.png",
+      "label": "01 正面头部",
+      "role": "01-head-front",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/elon-casual--01-head-front.png",
+      "sha256": "64d689f54decfbc0051b13513318709c3bd47cc514ce382f55c5a19464c2f54f",
+      "bytes": 1975486,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "elon-casual--02-head-left.png",
+      "label": "02 侧面头部",
+      "role": "02-head-left",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/elon-casual--02-head-left.png",
+      "sha256": "ea759c4ddf3327a4cd5e8ce6d6ec383c7a6d3ac66ee2388fa95113216a8b347c",
+      "bytes": 2093109,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "elon-casual--03-head-back.png",
+      "label": "03 背面头部",
+      "role": "03-head-back",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/elon-casual--03-head-back.png",
+      "sha256": "aad13a169934ff9b4a5e1b807c44d90dbecabbaaef1d6d63bc5d84920615d637",
+      "bytes": 2478635,
+      "width": 1254,
+      "height": 1254
+    },
+    {
+      "name": "elon-casual--04-body-front.png",
+      "label": "04 正面身体",
+      "role": "04-body-front",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/elon-casual--04-body-front.png",
+      "sha256": "b797b04e155b7ec213746bc7a6731008993bf6f252e704f2d5ed03ee71b171a8",
+      "bytes": 1775938,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "elon-casual--05-body-left.png",
+      "label": "05 侧面身体",
+      "role": "05-body-left",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/elon-casual--05-body-left.png",
+      "sha256": "4b91cab89b9c7a1adba6f9819f4cd901e9249e0b3f9c878d66e31820d4374088",
+      "bytes": 1709960,
+      "width": 1024,
+      "height": 1536
+    },
+    {
+      "name": "elon-casual--06-body-back.png",
+      "label": "06 背面身体",
+      "role": "06-body-back",
+      "url": "https://github.com/GaryLauLGY/character-asset-card/releases/download/examples-2026-11-06-six-grid/elon-casual--06-body-back.png",
+      "sha256": "27d262f5280eeac8148bd3763602ee8c78defa45c62c37028f8f063e25ee79fa",
+      "bytes": 1730009,
+      "width": 1024,
+      "height": 1536
+    }
+  ],
+  "verification": {
+    "original_image_bytes": "All PNG bytes and SHA-256 equal the adopted source files; no resizing, cropping or re-encoding.",
+    "decoded_images": "7/7 complete PNG decode passed",
+    "scope": "Publication of existing adopted assets; no new image generation or visual re-acceptance."
+  }
+}
